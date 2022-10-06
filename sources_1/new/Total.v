@@ -25,7 +25,7 @@ module Total(
     input [3:0] i_b,
     input i_en,
     input [1:0]i_digitSelect,
-    input i_cin,
+    input i_mode,
     output [3:0] o_digit,
     output [7:0] o_fndFont
     );
@@ -43,10 +43,10 @@ module Total(
         .o_fndFont(o_fndFont)
     );
 
-    FullAdder_4bits FA4_0(
+    FullAdder_Sub_4bits FA4_0(
         .i_a(i_a),
         .i_b(i_b),
-        .i_c(1'b0),
+        .i_mode(i_mode),
         .o_sum(w_sum),
         .o_carry(w_carry)
     );

@@ -19,7 +19,7 @@ set_property -dict { PACKAGE_PIN W15  IOSTANDARD LVCMOS33 } [get_ports { i_b[0] 
 set_property -dict { PACKAGE_PIN V15  IOSTANDARD LVCMOS33 } [get_ports { i_b[1]  }]; #IO_L21P_T3_DQS_14          ,Sch=SW5
 set_property -dict { PACKAGE_PIN W14  IOSTANDARD LVCMOS33 } [get_ports { i_b[2]  }]; #IO_L22N_T3_A04_D20_14      ,Sch=SW6
 set_property -dict { PACKAGE_PIN W13  IOSTANDARD LVCMOS33 } [get_ports { i_b[3]  }]; #IO_L22P_T3_A05_D21_14      ,Sch=SW7
-set_property -dict { PACKAGE_PIN V2   IOSTANDARD LVCMOS33 } [get_ports { i_cin  }]; #IO_L5P_T0_34               ,Sch=SW8
+set_property -dict { PACKAGE_PIN V2   IOSTANDARD LVCMOS33 } [get_ports { i_mode  }]; #IO_L5P_T0_34               ,Sch=SW8
 #set_property -dict { PACKAGE_PIN T3   IOSTANDARD LVCMOS33 } [get_ports { i_switch_31  }]; #IO_L2N_T0_34               ,Sch=SW9
 #set_property -dict { PACKAGE_PIN T2   IOSTANDARD LVCMOS33 } [get_ports { sw[10] }]; #IO_L1N_T0_34               ,Sch=SW10
 #set_property -dict { PACKAGE_PIN R3   IOSTANDARD LVCMOS33 } [get_ports { sw[11] }]; #IO_L2P_T0_34               ,Sch=SW11
